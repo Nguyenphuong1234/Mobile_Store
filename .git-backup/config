@@ -1,0 +1,27 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Nguyenphuong1234/CNTT_DACS.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+[remote "minhnv"]
+	url = https://github.com/Hip-freelancer/dacs-cntt.git
+	fetch = +refs/heads/*:refs/remotes/minhnv/*
+[branch "master"]
+	remote = mobile-store
+	vscode-merge-base = minhnv/master
+	merge = refs/heads/master
+[remote "mobile-store"]
+	url = https://github.com/Nguyenphuong1234/Mobile_Store.git
+	fetch = +refs/heads/*:refs/remotes/mobile-store/*
+[user]
+	name = Nguyenphuong1234
+	email = 23015738@st.phenikaa-uni.edu.vn
